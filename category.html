@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+    <title>wonderfruit</title>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-image:url(img/fruit2.png) ;
+        background-size : 500px ;
+  background-repeat:repeat;
+  background-attachment: fixed;
+  background-position: center center;
+        padding: 10px;
+      }
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 10px 90px;
+        font-size: 40px;
+        text-align: center;
+      }
+      </style>
+</head>
+<body>
+  <div id="side-navbar">
+    <img class="fire" src="/img/wonderfruit.gif"> <h2>wonderfruit </h2><br><br><br><br><br>
+       <li><a href="/">홈으로</a></li>
+       <li><a href="shopping.html">장바구니</a></li>
+       <li><a href="mypage.html">마이페이지</a></li>
+       <li><a href="category.html">카테고리</a></li>
+       <li><a href="introduce.html">팀 소개</a></li>
+       <li><a href="loading.html">.</a></li>
+     </ul>
+ 
+     
+     
+     <div class="sns-icon">
+       <div class="sns">
+         <a href="https://github.com/limgunny/team">
+         <img class="github-img" src="img/github.png">
+         </a>
+         
+       </div>
+     </div>
+   </div>
+   <div id="main">
+     <div class="hero-header">
+       <div class="info">
+         
+       
+    
+    
+    <div class="grid-container">
+      <p>
+      <button type="button" class="grid-item" onmouseenter="showinfob()" onmouseout="hide()">바나나<br><img src="img/banana1.png" alt="photo" width="110px" height="70px"; /></button>
+      <button type="button" class="grid-item" onmouseenter="showinfoa()" onmouseout="hide()">사과<br><img src="img/apple3.png" alt="photo" width="110px" height="70px" /></button>
+      <button type="button" class="grid-item" onmouseenter="showinfop()" onmouseout="hide()">배<br><img src="img/pear.png" alt="photo" width="110px" height="70px" /></button>
+      <button type="button" class="grid-item" onmouseenter="showinfog()" onmouseout="hide()">포도<br><img src="img/grape.png" alt="photo" width="110px" height="70px" /></button>
+      <button type="button" class="grid-item" onmouseenter="showinfos()" onmouseout="hide()">딸기<br><img src="img/strawberry.png" alt="photo" width="110px" height="70px" /></button>
+      <button type="button" class="grid-item" onmouseenter="showinfow()" onmouseout="hide()">수박<br><img src="img/watermelon.png" alt="photo" width="110px" height="70px" /></button>
+      <button type="button" class="grid-item" onmouseenter="showinfom()" onmouseout="hide()">망고<br><img src="img/mango.png" alt="photo" width="110px" height="70px" /></button>
+      <button type="button" class="grid-item" onmouseenter="showinfok()" onmouseout="hide()">키위<br><img src="img/kiwi.png" alt="photo" width="110px" height="70px" /></button>
+      <!-- <button type="button" class="grid-item" onclick="showinfoj()" onmouseout="hide()">자두<br><img src="img/plum.png" alt="photo" width="100px" /></button> -->
+      <!-- <button type="button" class="grid-item">바나나<br><img src="img/banana1.png" alt="photo" width="100px" /></button>
+      <button type="button" class="grid-item">사과<br><img src="img/apple3.png" alt="photo" width="100px" /> </button>
+      <button type="button" class="grid-item">배<br><img src="img/pear.png" alt="photo" width="100px" /> </button>  
+      <button type="button" class="grid-item">포도<br><img src="img/grape.png" alt="photo" width="100px" /> </button>
+      <button type="button" class="grid-item">딸기<br><img src="img/strawberry.png" alt="photo" width="100px" /> </button>
+      <button type="button" class="grid-item">수박<br><img src="img/watermelon.png" alt="photo" width="100px" /> </button>  
+      <button type="button" class="grid-item">망고<br><img src="img/mango.png" alt="photo" width="100px" /> </button>
+      <button type="button" class="grid-item">키위<br><img src="img/kiwi.png" alt="photo" width="100px" /> </button>
+      <button type="button" class="grid-item">자두<br><img src="img/plum.png" alt="photo" width="100px" /> </button>   -->
+    </p>
+    </div>
+    <div>
+      <img id="infoimg" height="200px" />
+      <p id="info"></p><br>
+      
+  </div>
+         
+       </div>
+     </div>
+     <br><br><br><br><br><br><br><br>
+     <footer  style=" margin:-10px;  text-align:left;padding-left:5%; background-color: darkgray;">
+      상호명 : wonderfruit<br>
+      대표자명 : 박이슬,유선빈,임건희<br>
+      주소 : 경기도 고양시 덕양구 동헌로 305 (833호)<br>
+      통신판매업 신고 번호 : 123124-12341-1234<br>
+  사업자 등록 번호 : 1234-1243-1234<br>
+  고객센터 전화 : 02-123-4567<br>
+  이용시간 : 9:00 ~ 18:00
+      </footer>
+   </div>
+   <script src="main.js"></script>
+ </body>
+ </html>
